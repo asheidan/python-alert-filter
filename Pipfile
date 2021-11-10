@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+exchangelib = "~=4.6.0"
+urwid = "~=2.1.0"
+
+[dev-packages]
+black = "==21.9b0"
+
+[requires]
+python_version = "3.9"
